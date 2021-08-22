@@ -1,0 +1,98 @@
+body {
+  background-image: linear-gradient(to right, #172859, lightblue);
+}
+.calculator-board {
+  background-color: #6f05b2;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 450px;
+  margin-top: 4rem;
+  left: 35%;
+  position: relative;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.calculator-display {
+  width: 350px;
+  height: 95px;
+  position: relative;
+}
+.calculator-display input {
+  background-color: gray;
+  font-size: 30px;
+  color: black;
+  width: 23.75pc;
+  height: 80px;
+  text-align: right;
+  border: 8px solid skyblue;
+  outline: none;
+}
+::placeholder {
+  color: black;
+}
+.btn-class {
+  padding-left: 15px;
+  margin-top: 8px;
+}
+.btn-class button {
+  background-color: rebeccapurple;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.btn-class button:hover {
+  background-color: darkviolet;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#equals-btn {
+  padding: 16px 80px;
+  font-size: 30px;
+}
+#delete-btn {
+  width: 88px;
+  padding: 18px 0px 16px;
+  font-size: 28px;
+}
+#clear-btn {
+  padding: 16px 21px;
+  font-size: 30px;
+  margin: 8px;
+  margin-left: 13px;
+}
+.row1-cell {
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  float: right;
+  margin: 11px;
+}
+.row1-cell button {
+  font-size: 40px;
+  margin: -8px 0 20px 0;
+}
+.row2-cell button {
+  font-size: 40px;
+  width: 88px;
+  margin: 3px 0 0 0;
+}
+.row3-cell button {
+  font-size: 40px;
+  width: 88px;
+  margin-top: 13px;
+}
+.row4-cell button {
+  font-size: 40px;
+  width: 88px;
+  margin-top: 12px;
+}
+#zero-btn {
+  margin: 11px 0 0 0;
+  width: 182px;
+  font-size: 40px;
+}
+#period-btn {
+  width: 88px;
+  font-size: 40px;
+}
