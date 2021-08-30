@@ -1,0 +1,111 @@
+body {
+  background-color: #22222f;
+  font-family: Ubuntu;
+}
+h2 {
+  color: crimson;
+  margin-left: 37rem;
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    margin-left: 7rem;
+  }
+  .calculator-board {
+    margin-left: -8pc;
+  }
+}
+.calculator-board {
+  background-color: #2a3137;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 415px;
+  margin-top: 4rem;
+  left: 36%;
+  position: relative;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.calculator-display {
+  width: 350px;
+  height: 95px;
+  position: relative;
+}
+.calculator-display input {
+  background-color: #22222f;
+  font-size: 30px;
+  color: gray;
+  width: 20.62pc;
+  height: 80px;
+  text-align: right;
+  border: 8px solid #2a3137;
+  outline: none;
+}
+::placeholder {
+  color: gray;
+  padding: 4px;
+}
+.btn-class {
+  padding-left: 15px;
+  margin-top: 8px;
+}
+.btn-class button {
+  background-color: #2a3137;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #2a3137;
+}
+.btn-class button:hover {
+  background-color: #0591fd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#equals-btn {
+  padding: 20px 60px;
+  font-size: 20px;
+}
+#delete-btn {
+  width: 88px;
+  padding: 15px 12px 18px 8px;
+  font-size: 25px;
+}
+#clear-btn {
+  width: 90px;
+  font-size: 24px;
+  margin: 12px 5px 5px 4px;
+  padding: 16px;
+}
+.row1-cell {
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  float: right;
+  margin: 11px;
+}
+.row1-cell button {
+  font-size: 36px;
+  margin: -7px 0px 18px -6px;
+}
+.row2-cell button {
+  font-size: 35px;
+  width: 72px;
+  margin: 5px 1px -1px 0px;
+}
+.row3-cell button {
+  font-size: 35px;
+  width: 73px;
+  margin-top: 13px;
+}
+.row4-cell button {
+  font-size: 36px;
+  width: 73px;
+  margin-top: 10px;
+}
+#zero-btn {
+  margin: 12px 0px 0px 0;
+  width: 136px;
+  font-size: 35px;
+}
+#period-btn {
+  width: 87px;
+  font-size: 35px;
+}
